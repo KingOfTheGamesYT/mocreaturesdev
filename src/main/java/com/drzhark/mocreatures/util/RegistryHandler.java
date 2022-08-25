@@ -31,6 +31,9 @@ public class RegistryHandler {
     public static final RegistryObject<Block> WYVERN_TALLGRASS = BLOCKS.register("wyvern_tallgrass", MoCBlockTallGrass::new);
     public static final RegistryObject<Block> WYVERN_GRASS = BLOCKS.register("wyvern_grass", MoCBlockGrass::new);
     public static final RegistryObject<Block> WYVERN_DIRT = BLOCKS.register("wyvern_dirt", MoCBlockDirt::new);
+    public static final RegistryObject<Block> OGRE_TALLGRASS = BLOCKS.register("ogre_tallgrass", MoCBlockTallGrass::new);
+    public static final RegistryObject<Block> OGRE_GRASS = BLOCKS.register("ogre_grass", MoCBlockGrass::new);
+    public static final RegistryObject<Block> OGRE_DIRT = BLOCKS.register("ogre_dirt", MoCBlockDirt::new);
 
 
 
@@ -38,6 +41,9 @@ public class RegistryHandler {
     public static final RegistryObject<Item> WYVERN_TALLGRASS_ITEM = ITEMS.register("wyvern_tallgrass", () -> new BlockItemBase(WYVERN_TALLGRASS.get()));
     public static final RegistryObject<Item> WYVERN_GRASS_ITEM = ITEMS.register("wyvern_grass", () -> new BlockItemBase(WYVERN_GRASS.get()));
     public static final RegistryObject<Item> WYVERN_DIRT_ITEM = ITEMS.register("wyvern_dirt", () -> new BlockItemBase(WYVERN_DIRT.get()));
+    public static final RegistryObject<Item> OGRE_TALLGRASS_ITEM = ITEMS.register("ogre_tallgrass", () -> new BlockItemBase(OGRE_TALLGRASS.get()));
+    public static final RegistryObject<Item> OGRE_GRASS_ITEM = ITEMS.register("ogre_grass", () -> new BlockItemBase(OGRE_GRASS.get()));
+    public static final RegistryObject<Item> OGRE_DIRT_ITEM = ITEMS.register("ogre_dirt", () -> new BlockItemBase(OGRE_DIRT.get()));
 
 
 

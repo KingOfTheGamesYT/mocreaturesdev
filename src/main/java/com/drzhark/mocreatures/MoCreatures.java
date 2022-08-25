@@ -43,6 +43,7 @@ public class MoCreatures {
     }
     private void doClientStuff(final FMLClientSetupEvent event) {
         RenderTypeLookup.setRenderLayer(RegistryHandler.WYVERN_TALLGRASS.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(RegistryHandler.OGRE_TALLGRASS.get(), RenderType.getCutout());
 
     }
 }
